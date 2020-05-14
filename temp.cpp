@@ -140,9 +140,17 @@ ll lcm(ll a, ll b) {
 	ll ans = a * b / gcd(a,b);
 	return ans;
 }
-
+	
 const ll INF = 1e18L + 5;
 const int MOD = 1e9 + 7;
+
+
+//vectPair<type>(v)         //vector<pair> 
+//mappedArr<type,type>(m)   //map<array>
+//mapped<type,type>(m)      // map
+//printArr<type>(arr,len)   //arry
+//print<type>(vect)         //1D vector 
+//console<type>(arr)        //2D vector
 
 /**************************/
 
