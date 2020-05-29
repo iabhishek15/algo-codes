@@ -1,0 +1,39 @@
+Algorithms to learn
+
+Basic 
+1) meet in the middle
+2) hpp data structure in gcc+ compiler
+
+maths topic
+1) FFT (fast fourier tranform)
+2) legendre's formula
+3) Gauss method for solving for system of linear equation
+4) matrix exponentation
+5) binary exponentation
+
+string topic
+1) hashing function
+   polynomial rolling hash function
+2) Rabin-karp algorithm for string matching
+    (this uses string hashing)
+3) prefix function knuth-morris-pratt algorithm 
+4) z-function and its calculation
+5) suffix array in string
+6) Aho-Corasick algorithm (uses trie data structure)
+
+
+Tree topic
+1) heavy light decompostion
+
+
+dp topic
+-> top 50 dp questions
+   link : https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3
+   
+
+
+
+
+
+
+
