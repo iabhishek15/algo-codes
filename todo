@@ -4,12 +4,14 @@ Basic
 1) meet in the middle
 2) hpp data structure in gcc+ compiler
 
-maths topic
-1) FFT (fast fourier tranform)
-2) legendre's formula
-3) Gauss method for solving for system of linear equation
-4) matrix exponentation
-5) binary exponentation
+data structure : 
+1) minimum stack / minimum queue
+trees :
+  1) disjoint set union
+  2) sqrt decomposition
+  3) treap 
+  4) sqrt tree
+  5) randomised heap
 
 string topic
 1) hashing function
@@ -22,14 +24,67 @@ string topic
 6) Aho-Corasick algorithm (uses trie data structure)
 
 
-Tree topic
-1) heavy light decompostion
+graph topic
+path finding algorithm
+1) Bellman-ford algorithm
+2) Dijkstra-algorithm
+3) Floyd-warshall algorithm
+
+tree
+basic 
+1)diameter 
+2) all longest path
+3) heavy light decompostion
+
+spanning tree
+1) kruskal algorithm
+2) union find structure
+3) prims algorithm
+
+directed graphs
+1)succesor path
+cycle detection
+1) floyd algorithm
+
+strong connectivity
+1) kosaraju's algorithm
+2) 2-SAT problem
+
+tree queries
+1) lowest common ancestor
+   -> by binary lifting
+   -> farach-coltoan and bender algorithm
+   -> solve RMQ by finding LCA
+   -> LCA : tarjan's offline algrorithm
+
+path and circuits
+1) eulerian path
+2) hamiltonian path
+3) debrujin sequence
+4) knights tour
+
+flows and cuts
+1) maximum flow : ford-fulkerson and edmonds-karp algorithm 
+2) disjoint paths 
+3) maxmimum matchings
+4) path covers
+5) maximum flow : push relabel algorithm 
+6) maximum flow : dinic's algorithm
+7) maximum flow : MPM algorithm 
+8) minimum cost flow
+9) flows with demands
+
+square root algorithms
+1) combining algorithms 
+2) interger partition
+3) Mo's algorithm
 
 
 dp topic
 -> top 50 dp questions
    link : https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3
-   
+-> sanfoundry list of dp problem
+   link : https://www.sanfoundry.com/dynamic-programming-problems-solutions/#
 
 
 
