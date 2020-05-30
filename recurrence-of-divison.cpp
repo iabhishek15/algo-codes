@@ -17,20 +17,18 @@ struct __{__(){ios_base::Init i;ios_base::sync_with_stdio(0);cin.tie(0);}}__;
 		int cnt = 0;
 		while (1) {
 			int z = p % i;
-			if (m[p % i]) {
+			if (m[p % i]) break;
+			if (!z) {
+				cnt++;
 				break;
 			}
 			m[p %  i] = 1;
 			p = 10 * z;
-		    if (z == 0) {
-				cnt++;
-				break;
-			}
+			cnt++;
 			if (p < i) {
 				p = 10 * p;
 				cnt++;
 			}
-			cnt++;
 		}
 		if (cnt > ans) {
 			ans = cnt;
@@ -39,8 +37,3 @@ struct __{__(){ios_base::Init i;ios_base::sync_with_stdio(0);cin.tie(0);}}__;
 	}
 	cout << val << " " << ans <<   endl;
  }
- 
- 
- 
- 
- 
