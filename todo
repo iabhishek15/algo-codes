@@ -4,6 +4,7 @@ Basic
 1) meet in the middle
 2) hpp data structure in gcc+ compiler
 3) Heap’s Algorithm for generating permutations
+4) huffman coding
 
 data structure : 
 1) minimum stack / minimum queue
@@ -26,10 +27,10 @@ string topic
 
 
 graph topic
-path finding algorithm
-1) Bellman-ford algorithm
-2) Dijkstra-algorithm
-3) Floyd-warshall algorithm
+path finding algorithm (nearly done we just need to solve the problem on it)
+1) Bellman-ford algorithm (x)
+2) Dijkstra-algorithm (x)
+3) Floyd-warshall algorithm (x)
 
 tree
 basic 
