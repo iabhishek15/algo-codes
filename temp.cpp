@@ -155,15 +155,30 @@ const int MOD = 1e9 + 7;
 /**************************/
 
 
+//some usefull links
+//https://csacademy.com/app/graph_editor/    //for visualization of graph and  trees
+//https://www.desmos.com/calculator          //for lines and graphs in a plane
+//https://www.wolframalpha.com/              //for maths scientific calculation
+//https://oeis.org/                          //another math scientific calculation webite
+//https://codeforces.com/blog/entry/70330    //2d visualizer
+
+///things to look for
+// * int overflow, array bounds
+// * special cases (n=1?)
+// * analyze the time complexity properly
+// * read the question properly and check for constrains
+// * while using global variable make sure to re-initialize it
+
 
 int main() {
 	IOS;
-	starting();
 	//#ifndef ONLINE_JUDGE
 	//freopen("input.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 	//#endif
 	
-	ending();
+	
 	return 0;
 }
+
+
