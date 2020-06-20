@@ -16,7 +16,7 @@ Palindrome Reorder 30:09
 Creating Strings I  32:51
 Apple Division   34:35
 Chessboard and Queens 37:18
-Grid Paths  40:40  //
+Grid Paths  40:40 -> 10:06:13
 
 
 
@@ -39,7 +39,7 @@ Factory Machines  1:18:28
 Tasks and Deadlines  1:25:14
 Reading Books  1:27:11
 Sum of Three Values  1:28:48
-Sum of Four Values  1:32:38 // 1:40:50
+Sum of Four Values  1:32:38 -> 1:40:50
 Nearest Smaller Values 1:39:00
 Subarray Sums I   1:41:06
 Subarray Sums II  1:42:43
@@ -125,7 +125,7 @@ Distinct Values Queries 6:53:12
 Forest Queries II  6:57:38
 Range Updates and Sums 7:01:34
 Polynomial Queries 7:05:41
-Range Queries and Copies 7:10:10 //
+Range Queries and Copies 7:10:10 -> 9:21:16
 
 
 Tree Algorithms
@@ -143,79 +143,37 @@ Subtree Queries  7:33:45
 Path Queries  7:36:05
 Distinct Colors 7:38:30
 
-Exponentiation
-Exponentiation II
-Counting Divisors
-Common Divisors
-Sum of Divisors
-Binomial Coefficients
-Creating Strings II
-Distributing Apples
-Christmas Party
-Fibonacci Numbers
-Throwing Dice
-Graph Paths I
-Graph Paths II
-Dice Probability
-Moving Robots
-Candy Lottery
-Inversion Probability
-Stick Game
-Nim Game I
-Nim Game II
-Stair Game
+Mathematics
+
+Exponentiation   7:46:51
+Exponentiation II  7:48:13
+Counting Divisors  7:49:08
+Common Divisors  7:52:25
+Sum of Divisors  7:54:38
+Binomial Coefficients 7:56:55
+Creating Strings II  8:02:30
+Distributing Apples  8:03:54
+Christmas Party  8:05:13
+Fibonacci Numbers 8:08:22
+Throwing Dice  8:17:48
+Graph Paths I  8:19:49
+Graph Paths II  8:23:06
+Dice Probability 8:28:31
+Moving Robots 8:35:52
+Candy Lottery  8:41:01
+Inversion Probability 8:43:38
+Stick Game 8:46:04
+Nim Game I 8:47:48
+Nim Game II 8:48:52
+Stair Game 8:49:47 -> 10:07:15
 
 
 String Algorithms
 
-Shortest Subsequence
-Counting Bits
-Swap Game
-Meet in the Middle
-Prüfer Code
-Edge Directions
-Advertisement
-Elevator Rides
-Maximum Xor Subarray
-Movie Festival Queries
-Chess Tournament
-Tree Traversals
-Network Renovation
-Graph Girth
-Intersection Points
-String Reorder
-Pyramid Array
-Increasing Subsequence II
-String Removals
-Bit Inversions
-Writing Numbers
-String Transform
-Maximum Building I
-Sorting Methods
-Cyclic Array
-Food Division
-Bit Problem
-Swap Round Sorting
-Tree Isomorphism I
-Critical Cities
-School Excursion
-Coin Grid
-Robot Path
-Course Schedule II
-Empty String
-Grid Paths
-Book Shop II
-Network Breakdown
-Visiting Cities
-Number Grid
-Maximum Building II
-Stick Divisions
-Coding Company
-Flight Route Requests
-Tree Isomorphism II
-Forbidden Cities
-Area of Rectangles
-Creating Offices
-Permutations II
-New Flight Routes
-
+Word Combinations 8:56:28
+String Matching 9:09:36
+Finding Borders  9:30:10
+Finding Periods  9:37:02
+Minimal Rotation  9:48:30
+Longest Palindrome  9:41:58
+Required Substring 9:12:48
