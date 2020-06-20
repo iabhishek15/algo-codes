@@ -52,31 +52,70 @@ Maximum Subarray Sum II  2:01:38
  
 dp problem
 
-Dice Combinations  
-Minimizing Coins   
-Coin Combinations I  
-Coin Combinations II
-Removing Digits
-Grid Paths
-Book Shop
-Array Description
-Edit Distance
-Rectangle Cutting
-Money Sums
-Removal Game
-Two Sets II
-Increasing Subsequence
-Projects
+Dice Combinations  2:05:11
+Minimizing Coins   2:06:23
+Coin Combinations I   2:07:53
+Coin Combinations II   2:10:07
+Removing Digits  2:10:59
+Grid Paths  2:12:37
+Book Shop  2:16:03
+Array Description  2:19:25
+Edit Distance  2:22:28
+Rectangle Cutting  2:25:59
+Money Sums  2:28:43
+Removal Game  2:31:12
+Two Sets II  2:35:01
+Increasing Subsequence 2:37:56
+Projects 2:39:18
 
 
 Graph Algorithms
 
-Range Sum Queries I
-Range Minimum Queries I
-Range Sum Queries II
-Range Minimum Queries II
-Range Xor Queries
-Range Update Queries
+Counting Rooms 2:45:24
+Labyrinth  2:47:33
+Building Roads 2:54:33
+Message Route  2:56:49
+Building Teams 2:59:32
+Round Trip  3:01:48
+Monsters  3:05:03
+Shortest Routes I  3:13:17
+Shortest Routes II  3:17:33
+High Score 3:22:05
+Flight Discount  3:25:59
+Cycle Finding  3:35:03
+Flight Routes  3:54:35
+Round Trip II  3:59:52
+Course Schedule 4:03:44
+Longest Flight Route 4:05:12
+Game Routes  4:08:43
+Investigation  4:09:46
+Planets Queries I  4:16:41
+Planets Queries II  4:18:23 // 4:21:23
+Planets Cycles  4:31:40
+Road Reparation  4:32:50
+Road Construction 4:35:48
+Flight Routes Check 4:38:07
+Planets and Kingdoms 4:44:14
+Giant Pizza  4:45:52
+Coin Collector 4:57:06
+Mail Delivery 5:00:57
+De Bruijn Sequence 5:09:57
+Teleporters Path  5:15:01
+Hamiltonian Flights 5:19:38
+Knight's Tour  5:27:49
+Download Speed  5:38:19
+Police Chase  5:45:27
+School Dance 5:51:23
+Distinct Routes 5:55:38
+
+Range Queries
+
+Range Sum Queries I  6:13:56
+Range Minimum Queries I 6:15:14 
+Range Sum Queries II  6:18:30
+Range Minimum Queries II  
+Range Xor Queries  6:22:31
+Range Update Queries 6:23:35
 Forest Queries
 Hotel Queries
 List Removals
