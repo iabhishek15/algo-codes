@@ -113,22 +113,35 @@ Range Queries
 Range Sum Queries I  6:13:56
 Range Minimum Queries I 6:15:14 
 Range Sum Queries II  6:18:30
-Range Minimum Queries II  
+Range Minimum Queries II  6:21:36
 Range Xor Queries  6:22:31
 Range Update Queries 6:23:35
-Forest Queries
-Hotel Queries
-List Removals
-Salary Queries
-Subarray Sum Queries
-Distinct Values Queries
-Forest Queries II
-Range Updates and Sums
-Polynomial Queries
-Range Queries and Copies
+Forest Queries  6:27:30
+Hotel Queries  6:30:04
+List Removals  6:41:11
+Salary Queries 6:45:21
+Subarray Sum Queries 6:48:59 
+Distinct Values Queries 6:53:12
+Forest Queries II  6:57:38
+Range Updates and Sums 7:01:34
+Polynomial Queries 7:05:41
+Range Queries and Copies 7:10:10 //
 
 
 Tree Algorithms
+
+Subordinates 7:11:17
+Tree Matching 7:12:54
+Tree Diameter 7:16:40
+Tree Distances I  7:17:55
+Tree Distances II  7:21:43
+Company Queries I  7:24:07
+Company Queries II  7:26:43
+Distance Queries   7:28:40
+Counting Paths  7:29:49
+Subtree Queries  7:33:45
+Path Queries  7:36:05
+Distinct Colors 7:38:30
 
 Exponentiation
 Exponentiation II
