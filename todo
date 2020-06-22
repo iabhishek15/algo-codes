@@ -1,7 +1,7 @@
 Algorithms to learn
 
 Basic 
-1) meet in the middle
+1) meet in the middle (x)
 2) hpp data structure in gcc+ compiler
 3) Heap’s Algorithm for generating permutations
 4) huffman coding
@@ -14,6 +14,7 @@ trees :
   3) treap 
   4) sqrt tree
   5) randomised heap
+2)persistent segment tree
 
 string topic
 1) hashing function
