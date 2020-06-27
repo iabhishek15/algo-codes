@@ -1,10 +1,18 @@
 Algorithms to learn
 
+basic terms to see 
+self loop, double edge
+
+
+
 Basic 
 1) meet in the middle (x)
 2) hpp data structure in gcc+ compiler
 3) Heap’s Algorithm for generating permutations
 4) huffman coding
+5) large fibonacii number
+6) knight move
+
 
 data structure : 
 1) minimum stack / minimum queue
