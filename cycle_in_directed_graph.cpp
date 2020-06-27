@@ -2,6 +2,8 @@
 //there may be chances that 3 is in cycle with 4 then while traversing across 3 we may not
 //get cycle but while travering across 4 we will deinitely will get the cycle
 
+//here when we return 1 we mean false and when we return 0 we mean true
+
 bool dfs(int index, vector<vector<int>> & v, vector<bool> &visited, vector<bool> &rec) {
         if (rec[index]) {
             return 1;
