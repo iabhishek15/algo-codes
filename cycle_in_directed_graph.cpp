@@ -1,4 +1,8 @@
-    bool dfs(int index, vector<vector<int>> & v, vector<bool> &visited, vector<bool> &rec) {
+//we should iterate over all the elements and check if anyone contains a cycle
+//there may be chances that 3 is in cycle with 4 then while traversing across 3 we may not
+//get cycle but while travering across 4 we will deinitely will get the cycle
+
+bool dfs(int index, vector<vector<int>> & v, vector<bool> &visited, vector<bool> &rec) {
         if (rec[index]) {
             return 1;
         }
