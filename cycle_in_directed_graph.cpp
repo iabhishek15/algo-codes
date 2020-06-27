@@ -1,5 +1,4 @@
 
-:
     bool isCycle(int index, vector<vector<int>> & v, vector<bool> &visited, vector<bool> &rec) {
         if (rec[index]) {
             return 0;
