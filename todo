@@ -8,9 +8,9 @@ self loop, double edge
 Basic 
 1) meet in the middle (x)
 2) hpp data structure in gcc+ compiler
-3) Heap’s Algorithm for generating permutations
+3) Heap’s Algorithm for generating permutations and basic way of writing permutation
 4) huffman coding
-5) large fibonacii number
+5) large fibonacii number(x)
 6) knight move
 6) inclusion-exculsion principle 
 7) stars and bars
@@ -21,6 +21,8 @@ Basic
 12) Fermat’s Little Theorem:
 13) Euclid Euler Theorem
 14) persistent queue
+15) trie data structure
+16) Matroid Intersection
 
 data structure : 
 1) minimum stack / minimum queue
