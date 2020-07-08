@@ -31,3 +31,5 @@ maths topic
 28) Calkin–Wilf tree
 29) Stern’s Diatomic Series
 30) Partition (number theory)
+31) prime number theorem (PNT) {lcm(1,2,3,4...,n} = e^n}
+32) cardinality {number of primes present in factors of number n is log(n) here base is 2}{2,3,5 => 2^3 - 1}
