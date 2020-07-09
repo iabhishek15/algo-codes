@@ -1,12 +1,12 @@
 
-Conditions: 
-1) MOD is a prime number 
-1) you should be able to calculate C(ni, ki) % MOD, where (0 ≤ ni, ki < MOD). // means a1[i] >= a2[i] else 0
+// Conditions: 
+// 1) MOD is a prime number 
+// 1) you should be able to calculate C(ni, ki) % MOD, where (0 ≤ ni, ki < MOD). // means a1[i] >= a2[i] else 0
 //when mod is prime
 
-Advices:
-1) this theorem is very useful in case N ≥ MOD, otherwise it's better to use formula C(N, K) = N! / ((N - K)! * K!) 
-2) If N ≥ MOD then N! % MOD = 0, when C(N, K) % MOD is not necessary equals to 0.
+// Advices:
+// 1) this theorem is very useful in case N ≥ MOD, otherwise it's better to use formula C(N, K) = N! / ((N - K)! * K!) 
+// 2) If N ≥ MOD then N! % MOD = 0, when C(N, K) % MOD is not necessary equals to 0.
 
 //1)  
 vector<int> get_representation(int n,int mod) {
@@ -81,7 +81,7 @@ vector<int> getRepresentation(int N, int MOD) {
 int C(int N, int K, int MOD,vector<int> fact) {
     if (K > N) {
         return 0;
-    }
+    }//while sending the power you can see that fact of number is send rather than number itself.
     return (((fact[N] * binpow(fact[N - K], MOD - 2,MOD))% MOD) * binpow(fact[K], MOD - 2,MOD)) % MOD;
 }
 
