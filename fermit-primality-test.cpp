@@ -11,6 +11,7 @@ ll power_ch(ll a, ll b, ll mo) {
 }         
 int main() {
 	//by this we can only proof than the number is composite we cannot say about the prime
+	//1105 fails
 	ll n;
 	cin >> n;
 	ll x = 0;
