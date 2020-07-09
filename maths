@@ -22,6 +22,7 @@ maths topic
 21) counting multiset
 22) Modular multiplicative inverse
 23) Sieve of Eratosthenes (x)
+    segmented-seive(x)
 24) multiset coefficient or multiset number
 25) Bijection (one to one correspondense)
 26) Lucas Theorem
@@ -33,3 +34,46 @@ maths topic
 30) Partition (number theory)
 31) prime number theorem (PNT) {lcm(1,2,3,4...,n} = e^n}
 32) cardinality {number of primes present in factors of number n is log(n) here base is 2}{2,3,5 => 2^3 - 1}
+33) Derangements
+34) Fermat primality test {a^(p - 1) % m != 1 then composite else if can be prime(not sure)}
+35) Fermit last theoram (fermit conjecture) {states that no three positive integers a, b, and c satisfy the equation a^n + b^n = c^n 
+for any integer value of n greater than 2. The cases n = 1 and n = 2 have been known since antiquity to have infinitely many solutions}
+36) Modularity theorem (proved fermit last theoram Andrew Wiles )
+37) bell number
+38) Lucas Theorem
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
