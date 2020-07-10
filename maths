@@ -1,6 +1,6 @@
 maths topic
 1) FFT (fast fourier tranform)
-2) legendre's formula
+2) legendre's formula (de Polignac's formula)
 3) Gauss method for solving for system of linear equation
 4) matrix exponentation
 5) binary exponentation
@@ -47,10 +47,19 @@ for any integer value of n greater than 2. The cases n = 1 and n = 2 have been k
 42)Euler's totient function
 43) chinese remainder theoram ( Garner's Algorithm )
 44) combinatorics
-    Hockey-Stick Identity 
+    -> Hockey-Stick Identity 
         property 1 and property 2
-    Vandermonde's Identity
+    -> Vandermonde's Identity
+    -> Kummer's theorem
+    -> pascal identity
 45) Hat-Check Problem
+46) lemma
+47) summation 
+    ->Faulhaber's formula
+    -> Bernoulli number
+    -> Falling and rising factorials
+48) harmonic function
+49) taylor series (if a == 0 then it is called Maclaurin Series)
  
 
 
