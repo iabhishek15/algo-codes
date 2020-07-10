@@ -44,6 +44,7 @@ for any integer value of n greater than 2. The cases n = 1 and n = 2 have been k
 39) Wilson's Theorem (Natural number N is a prime number if and only if (N - 1)! + 1 is divisible by N)
 40) Pythagorean triple
 41) Modular arithmetic
+42)Euler's totient function
 
 
  
