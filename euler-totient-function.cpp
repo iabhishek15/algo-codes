@@ -21,3 +21,22 @@ for (ll i = 2; i * i <= n; ++i){
 if (n > 1) {
 	ans -= ans/n;
 }
+
+
+//my way
+for (ll i = 2; i * i <= b; ++i){
+			if (b % i == 0) {
+				if (isprime(i)) {
+					ans1 *= (i - 1);
+					ans1 /= i;
+				}
+				if (i * i != b && isprime(b/i)) {
+					ans1 *= (b/i - 1);
+					ans1 /= b/i;
+				}
+			}
+		}
+		if (isprime(b)) {
+			ans1 /= b;
+			ans1 *= (b - 1);
+		}
