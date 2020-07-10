@@ -43,10 +43,14 @@ for any integer value of n greater than 2. The cases n = 1 and n = 2 have been k
 38) Lucas Theorem
 39) Wilson's Theorem (Natural number N is a prime number if and only if (N - 1)! + 1 is divisible by N)
 40) Pythagorean triple
-41) Modular arithmetic
+41) Modular arithmetic (https://www.hackerearth.com/practice/notes/powerful-tricks-with-calculation-modulo/)
 42)Euler's totient function
-
-
+43) chinese remainder theoram ( Garner's Algorithm )
+44) combinatorics
+    Hockey-Stick Identity 
+        property 1 and property 2
+    Vandermonde's Identity
+45) Hat-Check Problem
  
 
 
