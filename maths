@@ -60,6 +60,7 @@ for any integer value of n greater than 2. The cases n = 1 and n = 2 have been k
     -> Falling and rising factorials
 48) harmonic function
 49) taylor series (if a == 0 then it is called Maclaurin Series)
+50) Lagrange interpolation
  
 
 
