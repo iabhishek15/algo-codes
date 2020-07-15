@@ -110,6 +110,22 @@ int64_t POW(ll a, ll b) {
 	}
 	return ans;
 }
+
+vector<int64_t> INVERSE(int64_t nn, int64_t mo) {
+	vector<int64_t> inv(nn + 1);
+	vector<int64_t> mul(nn + 1);
+	inv[0] = 1;
+    inv[1] = 1;
+	for (ll i = 2; i <= nn; ++i) {
+		inv[i] = (mo - (mo / i) * inv[mo % i] % mo) % mo; 
+	}
+	mul[0] = 1;
+	for (int i = 1; i <= nn; ++i) {
+		mul[i] = (mul[i - 1] * inv[i]) % mo;
+	}
+	return mul;
+}
+
 int const r_array = 4;
 int const c_array = 4;
 void print_2d_array(int arr[r_array][c_array]) {
@@ -140,6 +156,10 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #endif
 
 
+/*********************code starts from here****************************************/
+
+
+
 int main() {
 	IOS;
 	//#ifndef ONLINE_JUDGE
@@ -166,7 +186,3 @@ int main() {
 	print_vector_pair<int,int>(p);
 	debug(a);
 }
-
-
-
- 
