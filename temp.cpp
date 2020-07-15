@@ -1,73 +1,72 @@
-#include "bits/stdc++.h"
-#include <chrono>
-
+#pragma GCC optimize("Ofast")
+#include <bits/stdc++.h> 
 using namespace std;
-using namespace std::chrono;
+
+//#include <ext/pb_ds/assoc_container.hpp>
+//using namespace __gnu_pbds;
+
+//template<class T> using oset=tree<T, null_type, less<T>, 
+//rb_tree_tag, tree_order_statistics_node_update>;
 
 typedef long long ll;
-typedef unsigned long long ull;
-typedef long double ld;
 
-#define forn(ii,nn) for (int ii = 0; ii < nn; ++ii)
-#define gcd(ade,bde) __gcd(ade,bde)
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0) 
+#define rep(pp,nn) for (int ii = pp; ii < nn; ++ii)
 #define vi vector<int>
 #define vll vector<ll>
 #define vs vector<string>
-#define vc vector<char>
-#define pb(ade) push_back(ade)
-#define pp pop_back()
-#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #define type(ade) typeid(ade).name();
 #define starting() auto start = high_resolution_clock::now()
 #define ending() auto stop = high_resolution_clock::now();\
 auto duration = duration_cast<microseconds>(stop - start);\
 cerr << "\n" << "\n" << "Execution Time : "<< duration.count()/1000 << " ms" << "\n"
 
-template <typename T1>
-void print(vector<T1> arr) {
-	int l = (int)arr.size();
-	cerr << "[" ;
-	for(int i = 0; i < l; i++) {
-		(i == l - 1) ? cerr << arr[i] : cerr << arr[i] << "," ;
-	}
-	cerr << "]" << "\n";
-}
+void __print(int x) {cerr << x;}
+void __print(long x) {cerr << x;}
+void __print(long long x) {cerr << x;}
+void __print(unsigned x) {cerr << x;}
+void __print(unsigned long x) {cerr << x;}
+void __print(unsigned long long x) {cerr << x;}
+void __print(float x) {cerr << x;}
+void __print(double x) {cerr << x;}
+void __print(long double x) {cerr << x;}
+void __print(char x) {cerr << '\'' << x << '\'';}
+void __print(const char *x) {cerr << '\"' << x << '\"';}
+void __print(const string &x) {cerr << '\"' << x << '\"';}
+void __print(bool x) {cerr << (x ? "true" : "false");}
 
 template <typename T1>
-void printArr(int arr[], int l) {
-	cerr << "[" ;
-	for (int i = 0; i < (int)l; i++) {
-		(i == l-1) ? cerr << arr[i] : cerr << arr[i] << "," ;
-	}
-	cerr << "]" << "\n";
-}
-
-template <typename T1>
-void console(vector<vector<T1>> arr) {
+void print_2d_vector(vector<vector<T1>> arr) {
 	for (int i = 0; i < (int)arr.size(); ++i) {
-		cerr << "\n" << " [" ;
+		(i == 0)?cerr << "\n[[" : cerr << "\n" << " [";
 	    for(int j = 0; j < (int)arr[i].size(); ++j) {
 			(j == (int)arr[i].size() - 1) ? cerr << arr[i][j] : cerr << arr[i][j] << "," ;
 		}
 	    cerr << "]";
 	}
-	cerr << "\n";
+	cerr << "]\n";
 }
 template <typename T1,typename T2>
-void mapped(map<T1,T2> m) {
+void print_map(map<T1,T2> m) {
 	for(auto ite = m.begin(); ite != m.end(); ++ite){
 		cerr << "'" << ite->first << "'"<< " : " << ite->second << "\n";
 	}
 }
 
 template <typename T1 , typename T2>
-void mappedArr(map<T1,vector<T2>> m) {
+void print_map_array(map<T1,vector<T2>> m) {
 	for (auto ity = m.begin(); ity != m.end(); ++ity) {
 		cerr << "'" << ity->first << "'" << " : " << "[";
         for (int i = 0; i < (int)ity->second.size(); ++i) {
 			(i == (int)ity->second.size() - 1) ? cerr << ity->second[i] : cerr << ity->second[i] << ",";
 		}
 		cerr << "]"<< "\n";
+	}
+}
+template <typename T1, typename T2>
+void print_vector_pair(vector<pair<T1,T2>> vp) {
+	for (int arrp = 0; arrp< (int)vp.size(); ++arrp){
+		cerr << "(" << vp[arrp].first << "," << vp[arrp].second << ")" << "\n" ;
 	}
 }
 
@@ -77,10 +76,6 @@ string int_to_string(int x) {
 	string ni = ss.str();
 	return ni;
 }
-int char_to_int(char c) {
-	int n = (int)c - 48;
-	return n;
-}
 int string_to_int(string x) {
 	int n;
 	stringstream s(x);
@@ -88,86 +83,61 @@ int string_to_int(string x) {
 	return n;
 }
 
-template <typename T1, typename T2>
-void vectPair(vector<pair<T1,T2>> vp) {
-	for (int arrp = 0; arrp< (int)vp.size(); ++arrp){
-		cerr << "(" << vp[arrp].first << "," << vp[arrp].second << ")" << "\n" ;
-	}
+char int_to_char(int a) {
+	return a + '0';
 }
 
-//unordered_map<int,int> um;
-//unordered_set<int> us;
-//set<int> s;
-// v.front() gives the first element of vector
-// v.back()  gives the last element of vector
-// insert erase substr
-//g++ -o Legendary-Grandmaster Legendary-Grandmaster.cpp&Legendary-Grandmaster.exe
-//cd C:\Users\158si\Desktop\Algorithim\codeForces\elite
-// for-bash cd C:/Users/158si/Desktop/Algorithim/codeForces/elite
-//memset(arr,element,sizeofarray);//Converts the value ch to unsigned char and copies it
-// into each of the first n characters of the object pointed to by str[].
-//g++ -o impulse.exe impulse.cpp
-//puts
 
-typedef long long ll;
-
-ll power (ll a, ll n) {
+int64_t power_mod(ll a, ll b, ll mo) {
 	ll ans = 1;
-	for (ll i = 0; pow(2,i) <= n; ++i) {
-		if ((n >> i) & 1) {
-			ans *= a;
+	while (b) {
+		if(b & 1) {
+			ans = (ans % mo * a % mo) % mo;
+		}
+		a = (a % mo * a % mo) % mo;
+		b /= 2;
+	}
+	return ans;
+}
+int64_t POW(ll a, ll b) {
+	ll ans = 1;
+	while (b) {
+		if(b & 1) {
+			ans = ans * a;
 		}
 		a = a * a;
+		b /= 2;
 	}
 	return ans;
 }
-
-void inverse(vector<ll>& v, ll w, ll p) {
-	v[1] = 1;
-	for (ll i = 2; i < w; ++i) {
-		v[i] = (p - (p/i) * v[p % i] % p) % p;
+int const r_array = 4;
+int const c_array = 4;
+void print_2d_array(int arr[r_array][c_array]) {
+	//int r =  sizeof(arr)/sizeof(arr[0]); //_countof(arr)
+	//int c = sizeof(arr)/(sizeof(int)*r); //_countof(*arr)
+	for (int i = 0; i < r_array; ++i) {
+		(i == 0)?cerr << "\n[[" : cerr << "\n" << " [";
+	    for(int j = 0; j < c_array; ++j) {
+			(j == c_array - 1) ? cerr << arr[i][j] : cerr << arr[i][j] << "," ;
+		}
+	    cerr << "]";
 	}
+	cerr << "]\n";
 }
 
-ll gcd(ll a, ll b) {
-	if (b == 0) {
-	    return a;	
-	}
-	return gcd(b,a % b);
-}
+template<typename T, typename V>
+void __print(const pair<T, V> &x) {cerr << '{'; __print(x.first); cerr << ','; __print(x.second); cerr << '}';}
+template<typename T>
+void __print(const T &x) {int f = 0; cerr << '{'; for (auto &i: x) cerr << (f++ ? "," : ""), __print(i); cerr << "}";}
+void _print() {cerr << "]\n";}
+template <typename T, typename... V>
+void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v...);}
 
-ll lcm(ll a, ll b) {
-	ll ans = a * b / gcd(a,b);
-	return ans;
-}
-	
-const ll INF = 1e18L + 5;
-const int MOD = 1e9 + 7;
-
-
-//vectPair<type>(v)         //vector<pair> 
-//mappedArr<type,type>(m)   //map<array>
-//mapped<type,type>(m)      // map
-//printArr<type>(arr,len)   //arry
-//print<type>(vect)         //1D vector 
-//console<type>(arr)        //2D vector
-
-/**************************/
-
-
-//some usefull links
-//https://csacademy.com/app/graph_editor/    //for visualization of graph and  trees
-//https://www.desmos.com/calculator          //for lines and graphs in a plane
-//https://www.wolframalpha.com/              //for maths scientific calculation
-//https://oeis.org/                          //another math scientific calculation webite
-//https://codeforces.com/blog/entry/70330    //2d visualizer
-
-///things to look for
-// * int overflow, array bounds
-// * special cases (n=1?)
-// * analyze the time complexity properly
-// * read the question properly and check for constrains
-// * while using global variable make sure to re-initialize it
+#ifndef ONLINE_JUDGE
+#define debug(x...) cerr << "[" << #x << "] = ["; _print(x)
+#else
+#define debug(x...)
+#endif
 
 
 int main() {
@@ -176,9 +146,27 @@ int main() {
 	//freopen("input.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 	//#endif
-	
-	
-	return 0;
+	vector<int> a = {1,2,3,4};
+	vector<vector<int>> b = {{1,2,3,4,5},
+							 {2,3,5,6,7}};
+	int aa[4][4] = {{2,2,3,4},{2,23,34,5}};
+	map<int,int> m;
+	map<int,vector<int>> x;
+	vector<pair<int,int>> p;
+	for (int i = 0; i < 10; ++i) {
+		m[i]++;
+		x[i].push_back(i);
+		x[i].push_back(i + 100);
+		p.push_back({i,i + 10001});
+	}	
+	print_2d_array(aa);
+	print_2d_vector<int>(b);
+	print_map<int,int>(m);
+	print_map_array<int>(x);
+	print_vector_pair<int,int>(p);
+	debug(a);
 }
 
 
+
+ 
