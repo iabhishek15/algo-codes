@@ -67,6 +67,7 @@ for any integer value of n greater than 2. The cases n = 1 and n = 2 have been k
 54) if a1 ^ a2 ^ a3 ^ a4 ^ a5 => 0 then XOR[a1,a1] = XOR[a2,a5] , XOR[a1,a2] == XOR[a3,a5] , XOR{a1,a4,a3} = XOR{a2,a5}
 XOR[a1,a3] == XOR[a4,a5],  XOR[a1,a4] == XOR[a5,a5] or we can say that we can divide the segment into two group
 and both will have same xor value
+55)Meissel-Lehmer Algorithm //https://acgan.sh/posts/2016-12-23-prime-counting.html
 
 
 
