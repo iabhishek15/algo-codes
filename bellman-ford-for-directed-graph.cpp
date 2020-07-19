@@ -43,7 +43,7 @@ int main() {
 
 //points to remember
 //1) we find the shortest path from a node to every other node
-//2) we assign that part to 0 and all other to infinity
+//2) we assign that root to 0 and all other to infinity
 //3) we iterate over all edges (edges - 1 times)
 //4) we can dfs or bfs
 //5) in case of complete graph it can take n^3 time
