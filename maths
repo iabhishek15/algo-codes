@@ -72,6 +72,7 @@ and both will have same xor value
 57) Segment Sieve of Eratosthenes plus Wheel Factorization 
 58)MILLER RABIN PROBABILISTIC PRIMALITY ALGORITHM
 59)Pollard-rho algorithm
+60) Primality Test (Solovay-Strassen)
 
 
 
