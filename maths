@@ -73,8 +73,8 @@ and both will have same xor value
 58)MILLER RABIN PROBABILISTIC PRIMALITY ALGORITHM
 59)Pollard-rho algorithm
 60) Primality Test (Solovay-Strassen)
-
-
+61) Wheel Factorization Algorithm 
+http://norvig.com/21-days.html
 
 
 
