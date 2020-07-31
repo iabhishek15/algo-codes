@@ -3,11 +3,19 @@ Algorithms to learn
 basic terms to see 
 self loop, double edge
 
+urgent requirement 
+1) digit dp, euler tour , k bishop , wheel factoraisation, primarilty test (miller rabin, fermit), Meissel-Lehmer
+
 chess board problem 
 1) two knights on N * N board
 2) two queens on N * N board
 3) K knights on N * N board
 4) K bishop on N * N board
+
+dp
+1) digit dp
+2) dp on bitmask
+3) dp on trees
 
 
 Basic 
