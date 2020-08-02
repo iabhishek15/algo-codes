@@ -5,6 +5,8 @@ self loop, double edge
 
 urgent requirement 
 1) lambda function and operator overloding , digit dp, euler tour , k bishop , wheel factoraisation, primarilty test (miller rabin, fermit), Meissel-Lehmer
+Print all the cycles in an undirected graph,Disjoint Set Union,Tarjan's strongly connected components algorithm
+
 
 chess board problem 
 1) two knights on N * N board
