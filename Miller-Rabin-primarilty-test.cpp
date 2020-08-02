@@ -25,7 +25,7 @@ ll mpow(ll base, ll exp, ll mod) {
     }
     return res % mod;
 }
-bool millerTest(ll n,ll d) {
+bool millerTest(ll n, ll d) {
     ll a = 2 + rand() % (n - 4);
     ll x = mpow(a, d, n);
     if (x == 1 || x == n - 1)
@@ -51,7 +51,7 @@ bool is_prime(ll n) {
     while (d % 2LL == 0)
         d /= 2LL;
     for (int i = 0; i < k; i++) {
-        if(!millerTest(n,d))
+        if(!millerTest(n, d))
             return false;
     }
     return true;
