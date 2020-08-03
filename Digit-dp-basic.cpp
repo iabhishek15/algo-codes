@@ -16,7 +16,8 @@ int64_t string_to_int(string x) {
 	s >> n;
 	return n;
 }
-
+//https://atcoder.jp/contests/dp/tasks/dp_s
+//https://atcoder.jp/contests/abc135/tasks/abc135_d
 int64_t a, b;
 string s_a, s_b;
 string p = "0123456789";
