@@ -5,8 +5,8 @@ self loop, double edge
 
 urgent requirement 
 1) lambda function and operator overloding , digit dp, euler tour , k bishop , wheel factoraisation, primarilty test (miller rabin, fermit), Meissel-Lehmer
-Print all the cycles in an undirected graph,Disjoint Set Union(DSU are used when connected as graph, linked to each other)
-,Tarjan's strongly connected components algorithm, skewed tree, Wavelet tree
+Print all the cycles in an undirected graph,,Tarjan's strongly connected components algorithm, skewed tree, Wavelet tree , Check if a given graph is tree or not
+
 
 
 chess board problem 
@@ -47,8 +47,8 @@ Basic
 data structure : 
 1) minimum stack / minimum queue
 trees :
-  1) disjoint set union
-  2) sqrt decomposition
+  1) disjoint set union (x)
+  2) sqrt decomposition 
   3) treap 
   4) sqrt tree
   5) randomised heap
