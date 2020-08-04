@@ -8,7 +8,9 @@ int find(int a) {
 	if (parent[a] == a) {
 		return a;
 	}
-	return parent[a] = find(parent[a]);
+	return parent[a] = find(parent[a]); //this is done so that all the values in set get assigned to single parent
+	//so that we can get the answer in O(1) time
+	//4->3->1    4->1<-3
 }
 
 void set_union(int a, int b) {
@@ -21,7 +23,8 @@ void set_union(int a, int b) {
 		swap(a,b);
 	}
 	parent[b] = a;
-	cnt[a] += cnt[b];
+	cnt[a] += cnt[b]; //union by rank and union by size //this is union by size
+	//this is done so that the formation of skewed tree can be avoided 
 }
 
 int main() {
