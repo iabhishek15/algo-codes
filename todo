@@ -10,6 +10,8 @@ Print all the cycles in an undirected graph,,Tarjan's strongly connected compone
 Check if a given graph is tree or not
 
 
+//Konig's theorem // Kuhn algorithm for finding unweighted maximum //Dinic and Hopkroft-Karp 
+
 
 chess board problem 
 1) two knights on N * N board
