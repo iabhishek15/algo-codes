@@ -8,6 +8,7 @@ urgent requirement
 primarilty test (miller rabin, fermit), Meissel-Lehmer
 Print all the cycles in an undirected graph,,Tarjan's strongly connected components algorithm, skewed tree, Wavelet tree , 
 Check if a given graph is tree or not
+bitmask dp
 
 
 //Konig's theorem // Kuhn algorithm for finding unweighted maximum //Dinic and Hopkroft-Karp 
