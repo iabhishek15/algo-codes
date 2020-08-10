@@ -22,7 +22,7 @@ chess board problem
 
 dp
 1) digit dp
-2) dp on bitmask
+2) dp on bitmask //https://codeforces.com/contest/1391/problem/D
 3) dp on trees
 
 
