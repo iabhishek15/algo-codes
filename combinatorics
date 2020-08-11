@@ -1,1 +1,14 @@
+Good problem on combinatorics
 
+Blue and red balls(using stars and bars) = https://atcoder.jp/contests/abc132/tasks/abc132_d
+cyclic permutation (using permutation and power_mod) = https://codeforces.com/contest/1391/problem/C
+count the array(using basic combinatorics) = https://codeforces.com/problemset/problem/1312/D
+doremon likes subseqence (parent printing and use of power_of_2) = https://codeforces.com/problemset/problem/1329/B
+count the blocks (simple permutation) = https://codeforces.com/problemset/problem/1327/E
+two arrays (stars and bars) = https://codeforces.com/problemset/problem/1288/C
+new year permutation (simple combination) = https://codeforces.com/problemset/problem/1284/C
+bouquet = https://atcoder.jp/contests/abc156/tasks/abc156_d
+
+
+modular arthimatic
+multiple of 2019 = https://atcoder.jp/contests/abc164/tasks/abc164_d
