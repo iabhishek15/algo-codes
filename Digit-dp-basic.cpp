@@ -17,7 +17,7 @@ string int_to_string(int x) {
 	return ni;
 }
 
-int dp[11][9 * 10 + 1][9 * 100 + 1][2];
+int dp[10 + 1][9 * 10 + 1][9 * 100 + 1][2];
 int K;
 string A, B;
 	
