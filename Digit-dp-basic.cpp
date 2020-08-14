@@ -1,3 +1,85 @@
+#include <iostream> 
+#include <vector>
+#include <sstream>
+#include <cstring>
+using namespace std;
+
+#define endl "\n"
+#define watch(x) cout << #x << " : " << x << endl;
+
+int in(char a) { 
+	return a - '0';
+}
+string int_to_string(int x) {
+    stringstream ss;
+	ss << x;
+	string ni = ss.str();
+	return ni;
+}
+
+int dp[11][9 * 10 + 1][9 * 100 + 1][2];
+int K;
+string A, B;
+	
+int rec(string& S) {
+	int N = (int)S.size();
+	for (int digit = 0; digit <= 9; ++digit) {
+		if (digit == in(S[0])) {
+			dp[0][digit][digit % K][0]++;
+		}else if (digit < in(S[0])) {
+			dp[0][digit][digit % K][1]++;
+		}
+ 	}
+	for (int i = 1; i < N; ++i) {
+		for (int sum = 0; sum <= 9 * i; sum++) {
+			for (int rem = 0; rem <= min(K - 1, 900); ++rem) {
+				for (bool sign : {false, true}) {
+					for (int digit = 0; digit <= 9; ++digit) {
+						int total = sum + digit;
+						int new_rem = (digit + rem * 10) % K;
+						if (!sign && digit > in(S[i])) {
+							break;
+						}
+						dp[i][total][new_rem][sign | (digit < in(S[i]))] += dp[i - 1][sum][rem][sign];
+					}
+				}
+			}
+		}
+	}
+	int ans = 0;
+	for (int i = 1; i <= 9 * N; ++i) {
+		if (i % K == 0) {
+			ans += dp[N - 1][i][0][0] + dp[N - 1][i][0][1];
+		}
+	}
+	return ans;
+}
+
+
+int main() {
+	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+	int tc;
+	cin >> tc;
+	int p = 1;
+	while (tc--) {
+		int A_int, B_int;
+		cin >> A_int >> B_int >> K;
+		A = int_to_string(A_int - 1);
+		B = int_to_string(B_int);
+		memset(dp, 0, sizeof(dp));
+		int ans_b = rec(B);
+		memset(dp, 0, sizeof(dp));
+		int ans_a = rec(A);
+		cout << "Case " << p << ": " << ans_b - ans_a << endl;
+		p++;
+	}
+}
+
+
+
+
+//************************************************************************************************************************
+
 #pragma GCC optimize("Ofast")
 #include <bits/stdc++.h> 
 using namespace std;
