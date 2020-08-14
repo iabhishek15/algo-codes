@@ -1,9 +1,15 @@
 
 digit dp
-multiple of d = https://atcoder.jp/contests/dp/tasks/dp_s
-remainder 5 when divided by 13 = https://atcoder.jp/contests/abc135/tasks/abc135_d
-digit sum = https://www.spoj.com/problems/PR003004/
-Investigation = https://vjudge.net/problem/LightOJ-1068
+DONE  
+  multiple of d = https://atcoder.jp/contests/dp/tasks/dp_s
+  remainder 5 when divided by 13 = https://atcoder.jp/contests/abc135/tasks/abc135_d  
+  digit sum = https://www.spoj.com/problems/PR003004/
+  Investigation = https://vjudge.net/problem/LightOJ-1068
+NOT DONE 
+  palidrome = https://vjudge.net/problem/LightOJ-1205
+  numbers = https://www.spoj.com/problems/NUMTSN/
+  magic numbers = https://codeforces.com/contest/628/problem/D
+  
 
 dp on bitmask 
 odd number of ones in even square = https://codeforces.com/contest/1391/problem/D
