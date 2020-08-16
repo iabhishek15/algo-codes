@@ -1,0 +1,100 @@
+
+
+
+In subarray number of times the element at certain position  gets counted is 
+i * (n - i + 1)  {here i starts from 1}
+
+can we use recursion in lambda function
+can we directly assign  one array  to another dp = new_dp
+rec(500ms) dp(1ms)
+
+when dealing with prime or n = 10^8 make sure to check "\n"
+
+OPERATOR OVERLOADING
+//MUST HAVE ONE OR ZERO ARGUMENTS
+
+LAMDA FUNCTION
+int a = 10, b = 12;
+//      [capture clause] (parameter)   return type
+//sum cannot be used as a function if auto is not defined
+	auto sum = [&] (int z1, int z2) -> int{
+		a = a + z1;
+		b = b + z2;
+		return a + b;	
+	};
+	cout << sum(23, 34) << endl;
+	cout << a << " " << b << endl;
+
+
+IOS;//if time limit gets just exceded
+
+things to look for
+* int overflow, array bounds
+* special cases (n=1?)
+* analyze the time complexity properly
+* decimal numbers should be handled carefully
+* check the formula properly
+* read the question properly and check for constrains
+* while using global variable make sure to re-initialize it
+
+//todo (what it does)
+//#pragma GCC optimize("Ofast")
+
+INT_MAX INT_MIN LONG_MIN LONG_MAX
+
+print_2d_array(aa); 
+print_2d_vector<int>(b);
+print_map<int,int>(m);
+print_map_array<int>(x);
+print_vector_pair<int,int>(p);
+
+
+//for checking the output format , does this satisy the condition  of the question asked
+./c < int > out1
+./brute < out1 > int2
+diff -w int2 one || break
+
+
+#ifndef ONLINE_JUDGE
+freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+#endif
+
+#define watch(x) cout << (#x) << " is " << (x) << endl // variable_name is 4
+
+data structure to learn
+bitset
+multiset
+priority_queue
+Policy-based data structures
+
+
+g++ -o Legendary-Grandmaster Legendary-Grandmaster.cpp&Legendary-Grandmaster.exe
+for cmd cd C:\Users\158si\Desktop\Algorithim\codeForces\elite
+for-bash cd C:/Users/158si/Desktop/Algorithim/codeForces/elite
+g++ -o impulse.exe impulse.cpp
+
+some usefull links
+https://csacademy.com/app/graph_editor/    //for visualization of graph and  trees
+https://www.desmos.com/calculator          //for lines and graphs in a plane
+https://www.wolframalpha.com/              //for maths scientific calculation
+https://oeis.org/                          //another math scientific calculation webite
+https://codeforces.com/blog/entry/70330    //2d visualizer
+
+five types of iterator => input , output , forward , bidirectional , random access iterator
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
