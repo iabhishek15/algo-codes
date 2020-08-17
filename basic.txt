@@ -1,5 +1,5 @@
 
-
+todo https://codeforces.com/contest/1313/problem/C2
 
 In subarray number of times the element at certain position  gets counted is 
 i * (n - i + 1)  {here i starts from 1}
