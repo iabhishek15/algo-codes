@@ -1,0 +1,6 @@
+0/1 bfs 
+* wizard in maze (when hey have only two types of weight) = https://atcoder.jp/contests/abc176/tasks/abc176_d
+
+dijistra (dijistra with set)
+* wizard in maze = https://atcoder.jp/contests/abc176/tasks/abc176_d
+
