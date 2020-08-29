@@ -30,6 +30,11 @@ int main() {
 			z++;
 		}else {
 			z = index[z];
+			if (s[i] == a[z]) {
+				z++;
+			}else {
+				z = 0;
+			}
 		}
 		if (z == m) {
 			pres = 1;
