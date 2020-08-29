@@ -1,0 +1,1 @@
+basic pattern matching = https://www.spoj.com/problems/NAJPF/
