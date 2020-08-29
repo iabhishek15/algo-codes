@@ -10,6 +10,11 @@ int main() {
 	int n = (int)s.size();
 	int m = (int)a.size();
 	vector<int> index(m);
+	//this actually maintains the prefix of string already matched
+	//if string is abaab then 
+	//abaab
+	//00112
+	//so if we are at last b then we will just jump to 2 b and start checking from there
 	for (int i = 1, p = 0; i < m; ++i) {
 		if (a[i] == a[p]) {
 			p++;
