@@ -1,5 +1,9 @@
 void check_pattern() {
 	int mod = 1e9 + 7;
+	
+	
+	
+	
 	int z = 127;
 	string a, b;
 	cin >> a >> b;
