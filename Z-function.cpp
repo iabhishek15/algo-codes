@@ -26,7 +26,7 @@ void check_pattern() {
 				}
 				Z[i] = R - L; 
 				R--;
-      }
+     	}
 		}
 	}	
 	for (int i = 0; i < n; ++i) {
