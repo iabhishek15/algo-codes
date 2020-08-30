@@ -1,3 +1,21 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+typedef long long ll;
+
+ll power_mod(ll a, ll b, ll mo) {
+	ll ans = 1;
+	while (b) {
+		if(b & 1) {
+			ans = (ans % mo * a % mo) % mo;
+		}
+		a = (a % mo * a % mo) % mo;
+		b /= 2;
+	}
+	return ans;
+}
+
 void check_pattern() {
 	int mod = 1e9 + 7;
 	int z = 127;
@@ -48,3 +66,28 @@ void check_pattern() {
 	}
 	cout << "\n\n";
 }
+
+int main() {
+	int tc;
+	cin >> tc;
+	while (tc--) {
+		check_pattern();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
