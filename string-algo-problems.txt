@@ -1,1 +1,4 @@
-basic pattern matching = https://www.spoj.com/problems/NAJPF/
+basic pattern matching 
+Z-function, KMP, Rabin-karp
+* https://www.spoj.com/problems/NAJPF/
+* https://www.hackerearth.com/practice/algorithms/string-algorithm/z-algorithm/tutorial/
