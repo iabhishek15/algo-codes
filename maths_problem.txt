@@ -1,0 +1,42 @@
+SOME IMPORTANT SERIES EXPANSION
+  1) (1 + x) ^ n (https://undergroundmathematics.org/counting-and-binomials/r6295/solution)
+
+IMPORTANT POINT
+* (a + b - 1) / b (for ceil function)
+*  when multiplying if the value can be near about 10^18 make sure to divide since overflow can cause the problem (while multiplying)
+problems
+  -> https://www.hackerrank.com/challenges/leonardo-and-prime/problem (max number of prime)
+  -> https://atcoder.jp/contests/abc169/tasks/abc169_b
+ 
+ 
+ ********* FAST EXPONENTATION OR FAST POWER (The Russian Peasant Algorithm)
+       -> https://www.hackerrank.com/challenges/russian-peasant-exponentiation/problem (using formula (a + bi)^k = c + di)
+        (make sure to initialize the pair correctly(ans), look for overflow, look for negative value)
+         
+ ********POWER_MOD WHEN THE VALUE IS GREATER THAN 1O^9 
+      was used in primarity testing
+      -> https://www.spoj.com/problems/PON/ (prime or not)
+ 
+ **********GCD
+ basic gcd problem
+   -> https://www.hackerrank.com/challenges/restaurant/problem (cutting square from rectangle)
+   -> atcoder 
+   -> codechef
+
+good basic geometry problem 
+   -> https://www.hackerrank.com/challenges/sherlock-and-moving-tiles/problem (movement of square in a plane y = x)
+   -> https://www.hackerrank.com/challenges/most-distant/problem (max_distance between points on x and y axis)
+
+
+
+************ EXTENDED EUCLID ALGORITHM
+(a + b * x) % n == 0
+not include the case when a % n == 0, making the new equation 
+(b * x) % n == y 
+condition gcd(b, n) = 1, we can get answer by extended euclid algorithm (ax + by = gcd(a, b)) 
+link of the post = http://rachitiitr.blogspot.com/2016/12/solving-linear-congruences-ax-equiv-b.html
+problem 
+   -> https://projecteuler.net/problem=134 
+   
+ 
+ 
