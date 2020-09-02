@@ -23,7 +23,7 @@ int palindrome(string &a) {
 	for (int i = 0; i < n; ++i) {
 		int val = dp[i];
 		if (s[i] == '#' && dp[i] % 2 == 1)val++;
-    if (s[i] != '#' && dp[i] % 2 == 0)val++;
+    		if (s[i] != '#' && dp[i] % 2 == 0)val++;
 		max_ans = max(max_ans, val);
 	}
 	return max_ans;
