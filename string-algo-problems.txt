@@ -4,4 +4,4 @@ Z-function, KMP, Rabin-karp
 * https://www.hackerearth.com/practice/algorithms/string-algorithm/z-algorithm/tutorial/
 
 manchester algorithm (palindrome)
-* https://codeforces.com/contest/1296/problem/E2
+* https://codeforces.com/contest/1335/problem/E2
