@@ -2,6 +2,7 @@ basic pattern matching
 Z-function, KMP, Rabin-karp
 * https://www.spoj.com/problems/NAJPF/
 * https://www.hackerearth.com/practice/algorithms/string-algorithm/z-algorithm/tutorial/
+* https://codeforces.com/problemset/problem/471/D (not done)
 
 manchester algorithm (palindrome)
 * https://codeforces.com/contest/1335/problem/E2
