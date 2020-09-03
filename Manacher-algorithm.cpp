@@ -15,6 +15,7 @@ int palindrome(string &a) {
 	vector<int> dp(n);
 	int l = 0, r = 0;
 	for (int i = 0; i < n; ++i) {
+		r = max(r, i);
 		dp[i] = min(dp[r - i + l], r - i);
 		while (i - dp[i] - 1 >= 0 && i + dp[i] + 1 < n && s[i - dp[i] - 1] == s[i + dp[i] + 1]) dp[i]++;
 		if (i + dp[i] > r) r = i + dp[i], l = i - dp[i];
@@ -43,6 +44,7 @@ int palindrome(string &a) {
 	int l = 0;
 	int r = 0;
 	for (int i = 0; i < n; ++i) {
+		r = max(r, i); //this helps in making r - i + l >= 0  for dp[r - i + l]
 		dp[i] = min(dp[r - i + l], r - i);
 		while (i - dp[i] - 1 >= 0 && i + dp[i] + 1 < n && s[i - dp[i] - 1] == s[i + dp[i] + 1]) {
 			dp[i]++;
