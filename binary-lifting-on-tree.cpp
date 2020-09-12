@@ -9,8 +9,9 @@ vector<vector<int>> parents(7e5 + 100, vector<int> (l + 1, 0));
 int n, q;
 
 void build_parent_tree() {
-	for (int i = 2; i <= n; ++i) {
-		for (int j = 1; j <= 19; ++j) {
+	
+	for (int j = 1; j <= 19; ++j) {
+		for (int i = 2; i <= n; ++i) {
 			parents[i][j] = parents[parents[i][j - 1]][j - 1]; 
 		}
 	}
