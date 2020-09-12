@@ -4,15 +4,11 @@ using namespace std;
 
 //problem : https://cses.fi/problemset/task/1687/
 
-vector<int> father(7e5 + 100);
 int l = 19;
 vector<vector<int>> parents(7e5 + 100, vector<int> (l + 1, 0));
 int n, q;
 
 void build_parent_tree() {
-	//base condition
-	for (int i = 0; i <= n; ++i) parents[i][0] = father[i];
-	
 	for (int i = 2; i <= n; ++i) {
 		for (int j = 1; j <= 19; ++j) {
 			parents[i][j] = parents[parents[i][j - 1]][j - 1]; 
@@ -35,7 +31,7 @@ int main() {
 	for (int i = 0; i < n - 1; ++i) {
 		int x;
 		cin >> x;
-		father[i + 2] = x;
+		parents[i + 2][0] = x;
 	}
 	build_parent_tree();
 	while (q--) {
