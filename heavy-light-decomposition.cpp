@@ -19,6 +19,7 @@ void build_segment_tree(int l = 1, int r = n, int index = 1) {
    build_segment_tree(half + 1, r, index * 2 + 1); 
    segment_tree[index] = max(segment_tree[index * 2], segment_tree[index * 2 + 1]);
 }
+
 void segment_tree_update(int in, int val, int l = 1, int r = n, int index = 1) {
    if (l == r) {
       segment_tree[index] = val;
@@ -33,6 +34,7 @@ void segment_tree_update(int in, int val, int l = 1, int r = n, int index = 1) {
    segment_tree[index] = max(segment_tree[index * 2], segment_tree[index * 2 + 1]);
    
 }
+
 int segment_tree_query(int l, int r, int x = 1, int y = n, int index = 1) {
    if (l <= x && r >= y) {
       return segment_tree[index];
@@ -43,7 +45,6 @@ int segment_tree_query(int l, int r, int x = 1, int y = n, int index = 1) {
    int mid = (x + y) / 2;
    return max(segment_tree_query(l, r, x, mid, index * 2), segment_tree_query(l, r, mid + 1, y, index * 2 + 1));
 }
-
 
 int dfs(int val = 1) {
     int size = 1;
@@ -86,7 +87,6 @@ void clearing() {
       depth[i] = 0;
    }
 }
-
 
 int query(int a, int b) {
     int res = 0;
@@ -139,7 +139,6 @@ void solve() {
    
    clearing();
 }
-
 
 int32_t main() {
    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
