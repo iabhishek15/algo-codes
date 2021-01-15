@@ -23,3 +23,28 @@ while (l < r) {
     l = m1 + 1;
   }
 }
+
+
+for maximum value 
+
+int l = 0;
+int r = n - 1;
+while (l < r) {
+  int m1 = l + (r - l) / 3;
+  int m2 = r - (r - l) / 3;
+  if (v[m1] >= v[m2]) {
+    r = m2 - 1;
+  }else {
+    l = m1 + 1;
+  }
+}
+
+
+//here we can see that the way of doing both the things are same
+
+
+
+
+
+
+
