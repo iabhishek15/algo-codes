@@ -4,8 +4,8 @@ using namespace std;
 
 int const nax = 2e5 + 11;
 int n; 
-int v[nax];
-int seg[nax * 4];
+long long v[nax];
+long long seg[nax * 4];
 
 //for sum
 
@@ -59,7 +59,7 @@ void build_min(int start = 1, int end = n, int index = 1) {
   seg[index] = min(seg[index * 2], seg[index * 2 + 1]);
 }
 
-int query_min(int x, int y, int start = 1, int end = n, int index = 1) {
+long long query_min(int x, int y, int start = 1, int end = n, int index = 1) {
   if ((start >= x) &&  (end <= y)) {
     return seg[index];
   }
@@ -70,8 +70,7 @@ int query_min(int x, int y, int start = 1, int end = n, int index = 1) {
   return min(query_min(x, y, start, mid, index * 2), query_min(x, y, mid + 1, end, index * 2 + 1));
 }
 
-
-void update_min(int given_index, int value, int start = 1, int end = n, int index = 1) {
+void update_min(int given_index, long long value, int start = 1, int end = n, int index = 1) {
   if (start == end) {
     seg[index] = value;
     return ;
@@ -84,8 +83,6 @@ void update_min(int given_index, int value, int start = 1, int end = n, int inde
   }
   seg[index] = min(seg[index * 2], seg[index * 2 + 1]);
 }
-
-
 
 
 
@@ -103,7 +100,7 @@ void build_max(int start = 1, int end = n, int index = 1) {
   seg[index] = max(seg[index * 2], seg[index * 2 + 1]);
 }
 
-int query_max(int x, int y, int start = 1, int end = n, int index = 1) {
+long long query_max(int x, int y, int start = 1, int end = n, int index = 1) {
   if ((start >= x) &&  (end <= y)) {
     return seg[index];
   }
@@ -114,7 +111,7 @@ int query_max(int x, int y, int start = 1, int end = n, int index = 1) {
   return max(query_max(x, y, start, mid, index * 2), query_max(x, y, mid + 1, end, index * 2 + 1));
 }
 
-void update_max(int given_index, int value, int start = 1, int end = n, int index = 1) {
+void update_max(int given_index, long long value, int start = 1, int end = n, int index = 1) {
   if (start == end) {
     seg[index] = value;
     return ;
