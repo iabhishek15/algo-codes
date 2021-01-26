@@ -20,18 +20,18 @@ void build_sum(int start = 1, int end = n, int index = 1) {
   
   seg[index] = seg[index * 2] + seg[index * 2 + 1];
 }
-long long query_sum(int x, int y, int start = 1, long long end = n, long long index = 1) {
+long long query_sum(int x, int y, int start = 1, int end = n, int index = 1) {
   if ((start >= x) &&  (end <= y)) {
     return seg[index];
   }
   if ((y < start) || (x > end)) {
     return 0;
   } 
-  long long mid = (start + end) / 2;
+  int mid = (start + end) / 2;
   return query_sum(x, y, start, mid, index * 2) + query_sum(x, y, mid + 1, end, index * 2 + 1);
 }
 
-void update_sum(long long given_index, long long value, long long start = 1, long long end = n, long long index = 1) {
+void update_sum(int given_index, long long value, int start = 1, int end = n, int index = 1) {
   if (start == end) {
     seg[index] = value;
     return ;
