@@ -118,9 +118,9 @@ void update_max(int given_index, long long value, int start = 1, int end = n, in
   }
   int mid = (start + end) / 2;
   if (given_index <= mid) {
-    update_min(given_index, value, start, mid, index * 2);
+    update_max(given_index, value, start, mid, index * 2);
   }else {
-    update_min(given_index, value, mid + 1, end, index * 2 + 1);
+    update_max(given_index, value, mid + 1, end, index * 2 + 1);
   }
   seg[index] = max(seg[index * 2], seg[index * 2 + 1]);
 }
