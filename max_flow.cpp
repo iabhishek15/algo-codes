@@ -11,7 +11,7 @@ int Max_Flow() {
     vector<int> visit(N + 1);
     queue<int> q;
     q.push(source);
-    int flow = 1e9 + 7;
+    int flow = 1e18 + 7;
     while ((int)q.size()) {
       int top = q.front();
       q.pop();
