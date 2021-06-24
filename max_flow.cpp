@@ -23,7 +23,6 @@ int Max_Flow() {
       }
     }
     if (flow_dirn.count(sink) == 0) break;
-    
     int flow = 1e18 + 7;
     int curr = sink;
     while (flow_dirn[curr]) {
