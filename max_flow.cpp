@@ -16,7 +16,7 @@ int Max_Flow() {
       q.pop();
       visit[top] = 1;
       for (auto x : Node[top]) {
-        if (x.second && !visit[x.first]) {
+        if (x.second > 0 && !visit[x.first]) {
           q.push(x.first);
           flow_dirn[x.first] = top;
         }
